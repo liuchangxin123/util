@@ -6,7 +6,6 @@ import javax.swing.*;
 import java.util.Properties;
 import java.awt.font.FontRenderContext;
 import java.awt.print.*;
-import wf.common.SystemProperties;
 import javax.print.*;
 import javax.print.attribute.*;
 import java.io.*;

@@ -327,5 +327,5 @@ public class HttpUtil {
         }
         return strBuff.substring(0, strBuff.length() - 1);
     }
-    
+
 }
