@@ -72,7 +72,7 @@ public class PasswordEncoder {
     public static void main(String[] args) {
         String salt = "be5e0323a9195ade5f56695ed9f2eb6b036f3e6417115d0cbe2fb9d74d8740406838dc84f152014b39a2414fb3530a40bc028a9e87642bd03cf5c36a1f70801e";
         PasswordEncoder encoderMd5 = new PasswordEncoder(salt, "MD5");
-        String encode = encoderMd5.encode("zxp52077");
+        String encode = encoderMd5.encode("root");
         System.out.println(encode);
         boolean passwprdValid = encoderMd5.isPasswordValid("c21feb87d79fd42e4336e4c231785ff9", "test");
         System.out.println(passwprdValid);

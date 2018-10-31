@@ -65,8 +65,8 @@ public class PasswordUtil {
     }
 
     public static void main(String[] args) {
-        String password = generate("admin");
-        System.out.println(verify("admin", password));
+        String password = generate("root");
+        System.out.println(verify("root", password));
     }
 
 }
